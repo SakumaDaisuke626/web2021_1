@@ -2,9 +2,9 @@ const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('test2.db');
 
 let schema = `
-create table test(
+create table OTAMESHI2(
   id integer primary key,
-  name text
+  name tablename2
 );
 `
 
