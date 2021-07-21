@@ -2,9 +2,10 @@ const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('test2.db');
 
 let schema = `
-create table OTAMESHI2(
+create table karaoke(
   id integer primary key,
-  name tablename2
+  prefecture text,
+	number integer
 );
 `
 
