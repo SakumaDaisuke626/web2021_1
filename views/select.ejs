@@ -5,13 +5,16 @@
   <title>Show message</title>
 </head>
 <body>
-  <h2>都道府県ごとの人口</h2>
-  <table>
+  <h2>都道府県ごとのカラオケ店舗数</h2>
+  <table border>
+				  <tr>
+						<td>都道府県名</td>
+						<td>店舗数</td>
+					</tr>
       <% for( let row of data ) { %>
         <tr>
-            <td><%= row.id %></td>
-            <td><%= row.都道府県 %></td>
-            <td><%= row.人口 %></td>
+            <td><%= row.prefecture %></td>
+            <td><%= row.number %></td>
         </tr>
       <% } %>
   </table>

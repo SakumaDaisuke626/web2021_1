@@ -4,7 +4,7 @@
   "description": "Node.js example server starter project",
   "main": "src/index.js",
   "scripts": {
-    "start": "create.js"
+    "start": "node app6.js"
   },
   "dependencies": {
     "ejs": "^3.1.3",
